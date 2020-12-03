@@ -82,7 +82,7 @@ I used RandomOverSampler technique.
 Original dataset shape Counter ({0: 6356, 1: 1644})
 Resample dataset shape Counter ({0: 6356, 1: 6356})
 
-![Imbalance_data](img/imbalance_data.png)
+![Imbalance_data](img/imbalance_target.png)
 
 ## Model
 As first simple model, I used LogisticRegresion, because it's simple, fast and easy to interpretation. The average of f1 score that I got from all LogisticRegresion was about 0.49 which is not acceptable.
