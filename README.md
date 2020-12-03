@@ -73,6 +73,8 @@ Although this dataset is clean, I did some work on this dataset:" See my final n
 - Dealing with Categorical Columns
 - One Hot Encoding 
 - Scaling 
+
+
 The most important part of preprocessing of my dataset is that this dataset is heavily imbalance. This means that the number of values in target (Exited column) which are
 0= Stayed or not exited and 1= Exited or churn customers is inequal, and this will affect our result, because the number of stayed are much more than churned customers. To avoid the power of stayed customers, I use the Over Sampling technique which makes the number of two classes equal. 
 I used RandomOverSampler technique.
@@ -80,7 +82,7 @@ I used RandomOverSampler technique.
 Original dataset shape Counter ({0: 6356, 1: 1644})
 Resample dataset shape Counter ({0: 6356, 1: 6356})
 
-![Imbalance_data](/notebooks/exploratory/Imbalance_data.png)
+![Imbalance_data](img/imbalance_data.png)
 
 ## Model
 As first simple model, I used LogisticRegresion, because it's simple, fast and easy to interpretation. The average of f1 score that I got from all LogisticRegresion was about 0.49 which is not acceptable.
