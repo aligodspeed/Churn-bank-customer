@@ -50,16 +50,16 @@ The unzipped data is a single csv file which is ready to use.
 I made some visualizations that I used in my presentation. These plots and bars are the most correlated features with target. These visualizations give me a good vision of dataset and more information about what dataset looks like and what I need to work on. 
 
 - Distribution of Age vs target 
-![Age](../img/Age_Contribution.png)
+![Age](/img/Age_Contribution.png)
 
 - Distribution of Balance vs target
-![Balance](../img/Balance_Contribution.png)
+![Balance](/img/Balance_Contribution.png)
 
 - Number of Male=0 and Female=1
-![Gender](../img/Gender-bar.png)
+![Gender](/img/Gender-bar.png)
 
 - Number of customers in countries vs exited
-![Countries](../img/Geography_count.png)
+![Countries](/img/Geography_count.png)
 
 ## EDA
 
