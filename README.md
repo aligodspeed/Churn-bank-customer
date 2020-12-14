@@ -4,7 +4,7 @@ Here in this project, I will use classification algorithms to make model to pred
 ## Directory Structure
 
 ### [data](https://github.com/aligodspeed/Churn-bank-customer/tree/main/data)
-This folder contains data from kaggle (https://www.kaggle.com/shivan118/churn-modeling-dataset)which has Information of 10000 customers from three countries France, Germany and Spain.
+This folder contains data from kaggle (https://www.kaggle.com/shivan118/churn-modeling-dataset) which has Information of 10000 customers from three countries France, Germany and Spain.
 
 ### [img](https://github.com/aligodspeed/Churn-bank-customer/tree/main/img)
 This folder contains images and visualizations of our project.
